@@ -1,0 +1,144 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: "Montserrat";
+}
+h3 {
+    color: black;
+    font-family: "montserrate-Black 900 italic";
+    font-size: 1.5rem;
+}
+h1 {
+    font-family: "Montserrat-black";
+    color: whitesmoke;
+    font-size: 3rem ;
+    line-height: 1.5;
+}
+h2 {
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light";
+}
+.container-fluid{
+    padding: 3% 15%;
+
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    position: relative;
+    left: 50%;
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/*font awesome*/
+
+.font-awe {
+    color: #ef8172;
+    padding-bottom: 1px;
+}
+.font-awe:hover {
+    color: #ff4c68;
+}
+
+
+#features {
+    background-color: whitesmoke;
+    padding-bottom: 3% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+/* testimonial  */
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.testimonial-img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+/* press  */
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+}
+.press-logo {
+    width: 24%;
+    padding: 0% 3%;
+}
+
+/*   Call to Action   */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+/*    Footer    */
+#footer {
+    padding: 6% ;
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+.awe-social{
+    margin: 10px;
+}
+.awe-social:hover {
+    color: black;
+}
+
+/* pricing */
+#pricing {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 4%;
+}
+.cd-head {
+    background-color: #ff4c68;
+}
+.dog-name{
+    position: relative;
+    top: 5px;
+    color: white;
+}
+@media (max-width: 972px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+    body {
+        text-align: center;
+        }
+}
